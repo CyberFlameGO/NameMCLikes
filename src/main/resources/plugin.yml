@@ -1,6 +1,11 @@
 name: ${project.name}
-main: net.cyberflame.plugin.Main
+main: net.cyberflame.namemclikes.Main
 version: ${project.version}
 description: Plugin
 website: https://cyberfla.me/
 author: CyberFlame
+
+commands:
+  namemc:
+    usage: /namemc
+    description: Checks if you have liked the server on NameMC.
