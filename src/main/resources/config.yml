@@ -1,1 +1,19 @@
+# The server IP as displayed on NameMC.
+server-name: "example.server.name"
 
+# A list of commands to run one time when a player likes the server.
+# Do not put '/' at the start of commands to run.
+command-list:
+  - "a command %player%"
+  - "another command %player%"
+
+# Plugin messages.
+prefix: "&7[&cServer&7] &e"
+already-liked: "You have already liked the server! Thanks :)"
+already-being-checked: "Please wait, you are already being checked."
+now-checking: "Please wait, we are checking your profile..."
+check-failed: "&cYou have not liked this server. Please make sure you have liked and try again later."
+check-succeeded: "&aThank you for liking our server!"
+
+# Do not modify this. List of UUIDS of players that have liked the server.
+uuid-list: []
